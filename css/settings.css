@@ -1,0 +1,59 @@
+@font-face {
+    font-family: HitmarkerText-Regular;
+    src: url(../font/HitmarkerText-Regular.ttf);
+    src: url(../font/HitmarkerText-Regular.woff);
+    src: url(../font/HitmarkerText-Regular.woff2);
+}
+@font-face {
+    font-family: CallOfOpsDuty;
+    src: url(../font/CallofOpsDuty.otf);
+    src: url(../font/CallofOpsDuty.ttf);
+    src: url(../font/CallofOpsDuty.woff);
+    src: url(../font/CallofOpsDuty.woff2);
+}
+@font-face {
+    font-family: HallmarkeCondesed;
+    src: url(../font/HallmarkeCondesedBlackRegular.ttf);
+    src: url(../font/HallmarkeCondesedBlackRegular.woff);
+    src: url(../font/HallmarkeCondesedBlackRegular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: HitmarkerText-Regular;
+}
+
+  @keyframes ping-start {
+    from {
+      outline-offset: 0;
+      outline: 0 solid transparent;
+    }
+    to {
+      outline-offset: 3px;
+      outline: 1.5px solid red;
+    }
+  }
+  @keyframes ping-delay {
+    from {
+      outline-offset: 3px;
+      outline: 1.5px solid red;
+    }
+    to {
+      outline-offset: 4px;
+      outline: 1.5px solid red;
+    }
+  }
+  @keyframes ping-end {
+    from {
+      outline-offset: 4px;
+      outline: 1.5px solid red;
+    }
+    to {
+      outline-offset: 0;
+      outline: 0 solid transparent;
+    }
+}
