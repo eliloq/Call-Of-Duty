@@ -1,3 +1,8 @@
+// blur the header box
+$("div.wrapper>div.header").css({
+  backdropFilter:"blur(15px)"
+})
+
 // vertical menu icons
 
 let flag = true;
