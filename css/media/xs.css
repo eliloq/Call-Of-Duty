@@ -27,17 +27,6 @@ div.wrapper > div.header > div.vertical-menu {
 
 /* submenu */
 
-div.wrapper > div.header > div.vertical-menu > div.s-menu {
-  display: none;
-  position: absolute;
-  top: 50px;
-  backdrop-filter: blur(15px);
-  left: calc(50% - 100% / 2);
-  width: 100%;
-  backdrop-filter: blur(15px);
-  background-color: rgba(65, 64, 64, 0.692);
-}
-
 div.wrapper > div.header > div.vertical-menu > div.menuIcon {
   width: 45px;
   height: 100%;
