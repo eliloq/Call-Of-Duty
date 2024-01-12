@@ -151,8 +151,6 @@ $("li.shop").on({
 let lastScrollTop = 0,
   delta = 5;
 $(document).on("scroll", function () {
-  console.log($(this).scrollTop());
-
   let nowScrollTop = $(this).scrollTop();
   if ($(this).scrollTop() <= 100) {
     $("div.wrapper>div.header").css({
