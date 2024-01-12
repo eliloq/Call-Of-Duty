@@ -98,7 +98,7 @@ div.wrapper > div.header > div.horizontal-menu > nav > ul > li > div.games-sm {
   position: absolute;
   left: 0px;
   top: 45px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   border-top-width: 1px;
   border-top-style: solid;
   border-image: linear-gradient(
@@ -189,7 +189,7 @@ div.wrapper
   position: absolute;
   left: 0;
   top: 45px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   border-top-width: 1px;
   border-top-style: solid;
   border-image: linear-gradient(
@@ -274,7 +274,7 @@ div.wrapper > div.header > div.horizontal-menu > nav > ul > li > div.shop-sm {
   position: absolute;
   left: 0;
   top: 45px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   border-top-width: 1px;
   border-top-style: solid;
   border-image: linear-gradient(
