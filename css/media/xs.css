@@ -505,7 +505,7 @@ div.wrapper > div.main > div:nth-of-type(1):hover > a {
 
 /* first containar */
 div.wrapper > div.containers {
-  width: 90vw;
+  width: 85vw;
   margin: 5% auto;
   cursor: pointer;
 }
@@ -595,7 +595,7 @@ div.wrapper
   > div.content
   > p:nth-of-type(1) {
   margin: 10px 0;
-  font-size: 17px;
+  font-size: 16px;
   word-spacing: 2.5px;
   color: lightgray;
 }
