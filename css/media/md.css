@@ -6,15 +6,27 @@ body {
 div.wrapper > div.header {
   width: 90%;
   height: 45px;
-  background-color: rgba(51, 51, 51, 0.89);
   display: flex;
   position: fixed;
   left: calc(50% - 90% / 2);
   top: 15px;
   z-index: 50;
   letter-spacing: 1px;
-
 }
+
+/* blur the header box */
+div.wrapper > div.header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 45;
+  backdrop-filter: blur(15px);
+  background-color: rgba(65, 64, 64, 0.692);
+}
+
 
 /* vertical-menu */
 div.wrapper > div.header > div.vertical-menu {
@@ -34,6 +46,8 @@ div.wrapper > div.header > div.vertical-menu > div.menuIcon {
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  position: relative;
+  z-index: 50;
 }
 div.wrapper > div.header > div.vertical-menu > div.menuIcon > div {
   width: 25px;
@@ -290,6 +304,8 @@ div.wrapper > div.header > div.logo {
   flex-grow: 30;
   align-items: center;
   padding-left: 15px;
+  position: relative;
+  z-index: 50;
 }
 
 div.wrapper > div.header > div.logo > a > img {
@@ -308,6 +324,8 @@ div.wrapper > div.header > div.login-signup {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
+  z-index: 50;
 }
 div.wrapper > div.header > div.login-signup > a {
   font-size: 16px;
@@ -321,6 +339,8 @@ div.wrapper > div.header > div.pre-order {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
+  z-index: 50;
 }
 
 div.wrapper > div.header > div.pre-order:hover > a {
